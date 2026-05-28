@@ -11,9 +11,9 @@ Algoritmo Ejercicio1
 	
 	Mientras monto <> 0 Hacer
 		si monto < 0 Entonces
-			Escribir "Â¡Advertencia! No se permiten montos negativos. Esta venta no serÃ¡ registrada"
+			Escribir "¡Advertencia! No se permiten montos negativos. Esta venta no será registrada"
 		SiNo
-			//Acumular el dinero y contar la venta vÃ¡lida
+			//Acumular el dinero y contar la venta válida
 			totalDinero <- totalDinero + monto
 			cantidadVentas <- cantidadVentas + 1
 		FinSi
